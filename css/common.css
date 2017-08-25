@@ -1,3 +1,127 @@
 /*
  * Estilos reutilizables
  */
+.linea {
+    border-top: 5px solid;
+    max-width: 25%;
+}
+.linea:nth-child(2) {
+    color: #2c3e50;
+}
+#star-five {
+   margin: 50px 0;
+   position: relative;
+   display: block;
+   color: red;
+   width: 0px;
+   height: 0px;
+   border-right:  100px solid transparent;
+   border-bottom: 70px  solid white;
+   border-left:   100px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+}
+#star-five:before {
+   border-bottom: 80px solid white;
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -45px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+
+}
+#star-five:after {
+   position: absolute;
+   display: block;
+   color: white;
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid white;
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+}
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+}
+
+.row:after {
+    clear: both;
+}
+
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+}
+
+.row1:after {
+    clear: both;
+}
+
+[class*="col-"] {
+    min-height: 7px;
+    float: left;
+}
+
+
+.col-1 {
+    width: 8.333333%;
+}
+
+.col-2 {
+    width: 16.6666667%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    padding-top: 2%;
+    display: inline-block;
+    width: 33.33333%;
+}
+.col-5 {
+
+    width: 41.666667%
+}
+.col-6 {
+    width: 50%
+}
+.col-7 {
+    width: 58.333333%
+}
+.col-8 {
+    width: 66.6666667%
+}
+.col-9 {
+    width: 75%
+}
+.col-10 {
+    width: 83.33333%
+}
+.col-11 {
+    width: 91.66667%
+}
+.col-12 {
+    width: 100%
+}
