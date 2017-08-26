@@ -8,7 +8,17 @@
 .upper {
     text-transform: uppercase;
 }
-
+.fa-star:before {
+    content: "\f005";
+}
+style.css:36
+*:before, *:after {
+    /* box-sizing: border-box; */
+}
+style.css:7
+*:before, *:after {
+    /* box-sizing: border-box; */
+}
 .linea:nth-child(2) {
     color: #2c3e50;
 }

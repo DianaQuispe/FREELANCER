@@ -77,7 +77,13 @@
     text-align: center;
     align-content: center;
 }
-
+.estrella {
+}
+.icono {
+    display: inline-block;
+    position: relative;
+    
+}
 #download {
     font-size: 1.3em;
     height: 30px;
